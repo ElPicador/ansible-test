@@ -1,0 +1,6 @@
+- hosts: cassandra
+  sudo: yes
+
+  roles:
+    - { role: rcs.oracle-jdk }
+    - { role: rcs.cassandra }

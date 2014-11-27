@@ -1,0 +1,4 @@
+---
+
+- include: playbooks/bootstrap.yml
+- include: playbooks/cassandra.yml
